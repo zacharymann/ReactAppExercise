@@ -1,6 +1,9 @@
 // 2b
 import Exercise from './exercise/Exercise'
 
+// 6g
+import Bonus from './bonus/Bonus'
+
 function App() {
   return (
     <div>
@@ -8,6 +11,7 @@ function App() {
     <Exercise />
   {/* 3a */}
     <Exercise good='Awesome' bad="Terrible" />
+    <Bonus />
     </div>
   );
 }
